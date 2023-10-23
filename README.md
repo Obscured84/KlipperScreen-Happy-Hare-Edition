@@ -43,7 +43,7 @@ Install and setup a base KlipperScreen from the original source. Get it working.
 
     cd ~
     mv KlipperScreen KlipperScreen.orig
-    git clone https://github.com/moggieuk/KlipperScreen-Happy-Hare-Edition.git KlipperScreen
+    git clone https://github.com/Obscured84/KlipperScreen-Happy-Hare-Edition.git KlipperScreen
    
     cd ~/KlipperScreen/happy_hare
     ./install_ks.sh -g <num_gates>
@@ -85,7 +85,7 @@ JFYI the installer will alter or add the KlipperScreen entry in `moonraker.conf`
     [update_manager KlipperScreen]
     type: git_repo
     path: /home/pi/KlipperScreen
-    origin: https://github.com/moggieuk/KlipperScreen-Happy-Hare-Edition.git
+    origin: https://github.com/Obscured84/KlipperScreen-Happy-Hare-Edition.git
     env: /home/pi/.KlipperScreen-env/bin/python
     requirements: scripts/KlipperScreen-requirements.txt
     install_script: scripts/KlipperScreen-install.sh

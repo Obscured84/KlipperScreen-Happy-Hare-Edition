@@ -49,7 +49,7 @@ class BasePanel(ScreenPanel):
         self.mmu_shortcut = {
             "name": "MMU",
             "panel": "mmu_main",
-            "icon": "mmu_carrot",
+            "icon": "mmu_menu",
         }
         self.control['mmu_shortcut'] = self._gtk.Button(self.mmu_shortcut['icon'], scale=abscale)
         self.control['mmu_shortcut'].connect("clicked", self._screen._menu_go_to, 'mmu_main', "MMU")
